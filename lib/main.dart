@@ -70,22 +70,7 @@ class HelloWorldApp extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(10),
                     child: Text(
-                      'AREMU OLUWATOBILOBA FRANKLIN',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontFamily: 'Roboto',
-                        fontWeight: FontWeight.w800,
-                        fontSize: 30.0,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ),
-                ),
-                Center(
-                  child: Padding(
-                    padding: const EdgeInsets.all(10),
-                    child: Text(
-                      'AREMU OLUWATOBILOBA FRANKLIN',
+                      'AREMU OLUWATOBILOBA',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontFamily: 'Roboto',
@@ -129,7 +114,7 @@ class HelloWorldApp extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(top: 550.0),
                     child: FlutterLogo(
-                      size: 30,
+                      size: 100,
                     ),
                   ),
                 )
